@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Dashboard - Tourism Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+    <h2>Tourism Planner</h2>
+
+    <div class="nav-links">
+
+        <a href="home.html">Home</a>
+
+        <a href="dashboard.html">Dashboard</a>
+
+        <a href="places.html">Places</a>
+
+        <a href="profile.html">Profile</a>
+
+        <a href="#" onclick="logout()">Logout</a>
+
+    </div>
+
+</nav>
+
+<div class="dashboard">
+
+    <h1>
+        Welcome,
+        <span id="dashboardName"></span>
+    </h1>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-card">
+
+            <h2>Explore Destinations</h2>
+
+            <p>
+                Find your next destination.
+            </p>
+
+            <a href="places.html"
+               class="button">
+
+                View Places
+
+            </a>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h2>My Profile</h2>
+
+            <p>
+                View your account information.
+            </p>
+
+            <a href="profile.html"
+               class="button">
+
+                Profile
+
+            </a>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h2>Trip Planner</h2>
+
+            <p>
+                Select days and calculate your
+                estimated budget.
+            </p>
+
+            <a href="places.html"
+               class="button">
+
+                Plan Trip
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
